@@ -21,7 +21,7 @@ type ProductCardProps = {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="w-full max-w-[370px]">
+    <Card className="w-full max-w-[370px] place-self-center">
       <CardHeader className="p-0 mb-4">
         <img src={product.picture} alt={product.title} />
       </CardHeader>

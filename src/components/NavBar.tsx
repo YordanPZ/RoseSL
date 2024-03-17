@@ -18,7 +18,7 @@ export default function NavBar() {
           Rose S.L
         </h1>
       </section>
-      <ul className=" gap-[5vw] hidden md:flex font-[400]">
+      <ul className=" gap-[5vw] hidden md:flex font-[400] lg:text-2xl text">
         <li>
           <Link href="/">Inicio</Link>
         </li>

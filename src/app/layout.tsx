@@ -21,6 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link
+          rel="icon"
+          href="/favicon.png?<generated>"
+          type="image/<generated>"
+          sizes="<generated>"
+        />
+      </head>
       <body className={`${inter.className} font-[Poppins] antialiased`}>
         {children}
       </body>
